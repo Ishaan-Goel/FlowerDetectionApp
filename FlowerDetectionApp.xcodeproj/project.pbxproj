@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C0B71DE2B435DAC007FC262 /* FoodDetectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B71DD2B435DAC007FC262 /* FoodDetectionAppApp.swift */; };
-		4C0B71E02B435DAC007FC262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B71DF2B435DAC007FC262 /* ContentView.swift */; };
-		4C0B71E22B435DAF007FC262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B71E12B435DAF007FC262 /* Assets.xcassets */; };
-		4C0B71E52B435DAF007FC262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B71E42B435DAF007FC262 /* Preview Assets.xcassets */; };
+		4C0B71EE2B435ECA007FC262 /* FlowerDetectionApp in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B71ED2B435ECA007FC262 /* FlowerDetectionApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C0B71DA2B435DAC007FC262 /* FoodDetectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDetectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C0B71DD2B435DAC007FC262 /* FoodDetectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetectionAppApp.swift; sourceTree = "<group>"; };
-		4C0B71DF2B435DAC007FC262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4C0B71E12B435DAF007FC262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C0B71E42B435DAF007FC262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C0B71ED2B435ECA007FC262 /* FlowerDetectionApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FlowerDetectionApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +29,7 @@
 		4C0B71D12B435DAC007FC262 = {
 			isa = PBXGroup;
 			children = (
-				4C0B71DC2B435DAC007FC262 /* FoodDetectionApp */,
+				4C0B71ED2B435ECA007FC262 /* FlowerDetectionApp */,
 				4C0B71DB2B435DAC007FC262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +40,6 @@
 				4C0B71DA2B435DAC007FC262 /* FoodDetectionApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4C0B71DC2B435DAC007FC262 /* FoodDetectionApp */ = {
-			isa = PBXGroup;
-			children = (
-				4C0B71DD2B435DAC007FC262 /* FoodDetectionAppApp.swift */,
-				4C0B71DF2B435DAC007FC262 /* ContentView.swift */,
-				4C0B71E12B435DAF007FC262 /* Assets.xcassets */,
-				4C0B71E32B435DAF007FC262 /* Preview Content */,
-			);
-			path = FoodDetectionApp;
-			sourceTree = "<group>";
-		};
-		4C0B71E32B435DAF007FC262 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4C0B71E42B435DAF007FC262 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +77,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C0B71D52B435DAC007FC262 /* Build configuration list for PBXProject "FoodDetectionApp" */;
+			buildConfigurationList = 4C0B71D52B435DAC007FC262 /* Build configuration list for PBXProject "FlowerDetectionApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,8 +100,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0B71E52B435DAF007FC262 /* Preview Assets.xcassets in Resources */,
-				4C0B71E22B435DAF007FC262 /* Assets.xcassets in Resources */,
+				4C0B71EE2B435ECA007FC262 /* FlowerDetectionApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +111,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0B71E02B435DAC007FC262 /* ContentView.swift in Sources */,
-				4C0B71DE2B435DAC007FC262 /* FoodDetectionAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C0B71D52B435DAC007FC262 /* Build configuration list for PBXProject "FoodDetectionApp" */ = {
+		4C0B71D52B435DAC007FC262 /* Build configuration list for PBXProject "FlowerDetectionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0B71E62B435DAF007FC262 /* Debug */,
